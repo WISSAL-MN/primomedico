@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding-left:20PX;
+    padding-right: 20PX;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+}
+.navbar .title{
+    display: flex;
+    justify-content: flex-start;
+}
+.long_menu {
+    display: flex;
+    justify-content: space-between;
+}
+.long_menu .link{
+    padding-left: 161px;
+}
+.long_menu .link>a{
+    padding: 4px 8px 3px; 
+    color: #18345C;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.long_menu .link>a:hover{
+    color: #18345C;
+    background-color:rgb(156, 154, 154);
+    border: rgb(156, 154, 154) 1px solid;
+    border-radius: 25px 0Px;
+}
+.long_menu .flags>a >img{
+    border-radius: 50px ;
+    border: #f0f1f3 2px solid;
+}
+.long_menu .flags>a >img:hover
+{
+    border: #CBC5AE 2px solid;
+}
+.long_menu .flags>a{
+    text-decoration: none;
+
+}
+.long_main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: #CBC5AE;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.infos ,.plus{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+ 
+
+}
+.infos >div>a {
+    text-decoration: none;
+    color: #18345C;
+    font-size: xx-large;
+}
+.infos >div>a :hover {
+    color: #CBC5AE;
+    text-decoration: underline;
+}
+.plus >div>a  {
+    text-decoration: none;
+    color: #18345C;
+    font-size: xx-large;
+    font-weight:100px;
+}
+hr{
+    border: 1px solid #333;
+    padding: 1,5px;
+}
+.card-body {
+    
+    
+   font-size: x-large;;
+    font-weight:100px;
+}
+.traitement >a{
+    padding-top: 20px;
+    color: #18345C;
+    text-decoration: none;
+}
+.traitement >a :hover{
+    color: #CBC5AE;
+    text-decoration: underline;
+}
+.wiss div>img {
+    border: 2px solid #ada2a2;
+    border-radius: 5px;
+    width: 160px;
+    height: 115px;
+    padding: 9px;
+    margin: 10px;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #bcbcbc;
+}
